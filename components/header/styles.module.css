@@ -1,0 +1,49 @@
+.container {
+    background-color: white;
+    padding: 10px 0px 5px;
+}
+
+.wrapper {
+    width: 92%;
+    max-width: 1430px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo img {
+    object-fit: contain;
+    object-position: top left;
+}
+
+.nav {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.nav a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+}
+
+.active {
+    font-weight: 700 !important;
+}
+
+.wrapper button {
+    padding: 10px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+}
