@@ -46,10 +46,10 @@ const Why = () => {
         </div>
         <div className={styles.right}>
           <div>
-            <Image src="/images/2.jpg" width={265} height={193} alt="Right" />
-            <Image src="/images/7.jpg" width={265} height={193} alt="Right" />
+            <Image src="/images/IMG-20250102-WA0030.jpg" width={265} height={193} alt="Right" />
+            <Image src="/images/IMG-20250102-WA0011.jpg" width={265} height={193} alt="Right" />
           </div>
-          <Image src="/images/6.jpg" width={285} height={410} alt="Right" />
+          <Image src="/images/IMG-20250102-WA0038.jpg" width={285} height={410} alt="Right" />
         </div>
       </div>
     </div>

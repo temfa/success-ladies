@@ -87,6 +87,11 @@
     gap: 24px;
 }
 
+.right div img {
+    object-fit: cover;
+    object-position: top center;
+}
+
 .right img {
     border-radius: 16px;
 }

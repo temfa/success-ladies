@@ -1,7 +1,8 @@
 .container {
-    background-color: white;
+    /* background-color: white; */
     padding: 10px 0px 5px;
 }
+
 
 .wrapper {
     width: 92%;
@@ -28,6 +29,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
+    color: white;
     letter-spacing: 0.2px;
 }
 
