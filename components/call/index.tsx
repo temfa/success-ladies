@@ -1,11 +1,14 @@
 import React from "react";
 import styles from "./styles.module.css";
+import Link from "next/link";
 
 const Call = () => {
   return (
     <div className={styles.container}>
       <p>Call Us Now</p>
-      <h2>+91 82000-60000</h2>
+      <Link href="tel:+0176-81102839" target="_blank">
+        +0176-81102839
+      </Link>
     </div>
   );
 };

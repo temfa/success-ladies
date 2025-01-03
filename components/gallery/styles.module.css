@@ -18,13 +18,16 @@
 
 .masonryItem {
     margin-bottom: 16px;
-    overflow: hidden;
+    /* overflow: hidden; */
     border-radius: 8px;
+    display: block !important;
+    /* margin :20px; */
 }
 
 .masonryItem img {
+    margin-right: 15px;
     display: block;
-    width: 100%;
+    width: 95%;
     cursor: pointer;
     height: auto;
     margin-bottom: 16px;
@@ -35,3 +38,27 @@
 .masonryItem img:hover {
     opacity: 0.4;
 }
+
+/* 
+.left {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.right {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+} */

@@ -107,7 +107,7 @@ export const galleryData = [
   "/images/IMG-20250102-WA0059.jpg",
   "/images/IMG-20250102-WA0060.jpg",
   "/images/IMG-20250102-WA0061.jpg",
-  "/images/IMG-20250102-WA0062.jpg",
+  // "/images/IMG-20250102-WA0062.jpg",
   "/images/IMG-20250102-WA0063.jpg",
   "/images/IMG-20250102-WA0064.jpg",
 ];
