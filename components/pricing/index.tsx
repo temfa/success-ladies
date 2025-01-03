@@ -1,44 +1,10 @@
 import React from "react";
 import styles from "./styles.module.css";
+import { plansData } from "@/utils/data";
 
 const Pricing = () => {
-  const plansData = [
-    {
-      title: "12-Month Membership (Adults)",
-      price: "€49.90/month",
-    },
-    {
-      title: "24-Month Membership (Adults)",
-      price: "€34.90/month",
-    },
-    {
-      title: "12-Month Membership (Youth/Students)",
-      price: "€43.90/month",
-    },
-    {
-      title: "24-Month Membership (Youth/Students)",
-      price: "€28.90/month",
-    },
-    {
-      title: "10-Visit Pass",
-      price: "€79.90",
-    },
-    {
-      title: "Annual Pass (Adults)",
-      price: "€548.90",
-    },
-    {
-      title: "Annual Pass (Youth/Students)",
-      price: "€482.90",
-    },
-    {
-      title: "One-Time Registration Fee",
-      price: "€25",
-      note: "Upon contract signing",
-    },
-  ];
   return (
-    <div className={styles.pricing}>
+    <div className={styles.pricing} id="pricing">
       <div className={styles.header}>
         <p>Pricing Plan</p>
         <h2>Join Today</h2>

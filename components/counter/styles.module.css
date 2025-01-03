@@ -27,3 +27,20 @@
     color: #eee;
     font-weight: 500;
 }
+
+@media screen and (max-width: 500px) {
+    .container {
+        padding: 48px 0px;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        row-gap: 24px;
+    }
+
+    /* .single h2 {
+        font-size: 20px;
+    }
+
+    .single p {
+        font-size: 12px;
+    } */
+}

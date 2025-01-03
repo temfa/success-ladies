@@ -17,13 +17,14 @@ const Banner = () => {
         <div className={styles.container}>
           <div className={styles.wrapper}>
             <div className={styles.top}>
-              <h2>Welcome to My Gym!</h2>
+              <h2>Willkommen in meinem Fitnessstudio!</h2>
               <p>
-                Hello! I’m Dilek Popal 😊, a mother of four wonderful children and the founder of a truly special gym🏋️‍♀️, created straight from the heart❤️ – for you, for us women.
+                Hallo! Ich bin Dilek Popal 😊, Mutter von vier wunderbaren Kindern und die Gründerin eines ganz besonderen Fitnessstudios🏋️‍♀️, das mit viel Herz❤️ – für dich, für uns
+                Frauen – geschaffen wurde.
               </p>
             </div>
             <div className={styles.bottom}>
-              <button>Get Started</button>
+              <button>Jetzt starten</button>
               <div className={styles.social}>
                 <TwitterSvg />
                 <FacebookSvg />

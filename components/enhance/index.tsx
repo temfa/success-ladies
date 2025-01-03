@@ -5,8 +5,8 @@ const Enhance = () => {
   return (
     <div className={styles.container}>
       <div className={styles.wrapper}>
-        <p>Enhance user experience with healthy nutrition tips, support resources, and social elements.</p>
-        <button>Join Us</button>
+        <p>Verbessern Sie das Nutzererlebnis mit Tipps für eine gesunde Ernährung, unterstützenden Ressourcen und sozialen Elementen.</p>
+        <button>Treten Sie bei</button>
       </div>
     </div>
   );

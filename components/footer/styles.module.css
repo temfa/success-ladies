@@ -28,3 +28,26 @@
 .right a {
     font-weight: 400;
 }
+
+@media screen and (max-width: 500px) {
+    .container {
+        padding: 20px 10px;
+    }
+
+    .left p,
+    .right a {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .left p,
+    .right a {
+        font-size: 14px;
+    }
+}

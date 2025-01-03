@@ -63,7 +63,7 @@ const Gallery = () => {
         },
       },
       {
-        breakpoint: 480,
+        breakpoint: 500,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -76,7 +76,7 @@ const Gallery = () => {
     setIsOpen(true);
   };
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="gallery">
       {/* <Masonry breakpointCols={breakpointColumnsObj} className={styles.masonryGrid} columnClassName={styles.masonryGridColumn}> */}
       <Slider {...settings}>
         {galleryData?.slice(0, 20)?.map((item, index) => {

@@ -6,19 +6,19 @@ const Counter = () => {
     <div className={styles.container}>
       <div className={styles.single}>
         <h2>5+</h2>
-        <p>Years of Service</p>
+        <p>Jahre im Dienst</p>
       </div>
       <div className={styles.single}>
         <h2>10+</h2>
-        <p>Certified Trainers</p>
+        <p>Zertifizierte Trainer</p>
       </div>
       <div className={styles.single}>
         <h2>786+</h2>
-        <p>Happy Members</p>
+        <p>Zufriedene Mitglieder</p>
       </div>
       <div className={styles.single}>
         <h2>95%</h2>
-        <p>Customer Satisfaction</p>
+        <p>Kundenzufriedenheit</p>
       </div>
     </div>
   );

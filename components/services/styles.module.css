@@ -80,3 +80,10 @@
     opacity: 0.5;
     letter-spacing: 0.2px;
 }
+
+@media screen and (max-width: 500px) {
+    .body .singleService {
+        width: 95% !important;
+        margin: 0px auto;
+    }
+}

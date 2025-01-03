@@ -19,6 +19,10 @@
     object-position: top left;
 }
 
+.logo svg {
+    display: none;
+}
+
 .nav {
     display: flex;
     gap: 24px;
@@ -48,4 +52,37 @@
     font-size: 14px;
     line-height: 140%;
     letter-spacing: 0.2px;
+}
+
+@media screen and (max-width: 500px) {
+    .wrapper {
+        width: 90%;
+        max-width: 100%;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .logo {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo svg {
+        display: block;
+    }
+
+    .wrapper .nav,
+    .wrapper button {
+        display: none;
+    }
+
+    .mobileNav .nav,
+    .mobileNav button {
+        display: flex !important;
+    }
+
+    /* 
+    .wrapper .nav {} */
 }

@@ -10,37 +10,33 @@ const Why = () => {
   return (
     <div className={styles.container}>
       <div className={styles.header}>
-        <h2>Why Choose Us </h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+        <h2>Warum uns wählen</h2>
+        <p>Weil ich fest daran glaube, dass Frauen Großartiges erreichen können, wenn sie sich stark💪, gesund🍀 und unterstützt🌸 fühlen.</p>
       </div>
       <div className={styles.body}>
         <div className={styles.left}>
           <div className={styles.single}>
             <Icon1 />
             <div>
-              <h2>Lorem Ipsum amid</h2>
-              <p>A welcoming, family-like atmosphere 💖 that lifts you up and motivates you.</p>
+              <p>Eine einladende, familienähnliche Atmosphäre 💖, die Sie aufbaut und motiviert.</p>
             </div>
           </div>
           <div className={styles.single}>
             <Icon2 />
             <div>
-              <h2>Lorem Ipsum amid</h2>
-              <p>Shared experiences like breakfasts, small celebrations 🎉, and events that strengthen our community.</p>
+              <p>Gemeinsame Erlebnisse wie Frühstücke, kleine Feiern 🎉 und Veranstaltungen, die unsere Gemeinschaft stärken.</p>
             </div>
           </div>
           <div className={styles.single}>
             <Icon3 />
             <div>
-              <h2>Lorem Ipsum amid</h2>
-              <p>A place where you not only reach your goals 🎯 but also build friendships👯‍♀️ and find inspiration.</p>
+              <p>Ein Ort, an dem Sie nicht nur Ihre Ziele 🎯 erreichen, sondern auch Freundschaften👯‍♀️ knüpfen und Inspiration finden.</p>
             </div>
           </div>
           <div className={styles.single}>
             <Icon4 />
             <div>
-              <h2>Lorem Ipsum amid</h2>
-              <p>You’ll not only get fitter but also leave with a smile on your face☺️ every time. </p>
+              <p>Sie werden nicht nur fitter, sondern gehen jedes Mal mit einem Lächeln☺️ nach Hause.</p>
             </div>
           </div>
         </div>

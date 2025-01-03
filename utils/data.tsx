@@ -1,58 +1,94 @@
 export const navLinks = [
   {
-    title: "Home",
+    title: "Startseite",
     link: "/",
   },
   //   {
-  //     title: "About",
+  //     title: "Über uns",
   //     link: "/about",
   //   },
   {
-    title: "Services",
-    link: "/services",
+    title: "Dienstleistungen",
+    link: "/#services",
   },
   {
-    title: "Pricing",
-    link: "/pricing",
+    title: "Preise",
+    link: "/#pricing",
   },
   {
-    title: "Gallery",
-    link: "/gallery",
+    title: "Galerie",
+    link: "/#gallery",
+  },
+];
+
+export const plansData = [
+  {
+    title: "12-monatige Mitgliedschaft (Erwachsene)",
+    price: "49,90 €/Monat",
+  },
+  {
+    title: "24-monatige Mitgliedschaft (Erwachsene)",
+    price: "34,90 €/Monat",
+  },
+  {
+    title: "12-monatige Mitgliedschaft (Jugendliche/Studenten)",
+    price: "43,90 €/Monat",
+  },
+  {
+    title: "24-monatige Mitgliedschaft (Jugendliche/Studenten)",
+    price: "28,90 €/Monat",
+  },
+  {
+    title: "10er-Karte",
+    price: "79,90 €",
+  },
+  {
+    title: "Jahreskarte (Erwachsene)",
+    price: "548,90 €",
+  },
+  {
+    title: "Jahreskarte (Jugendliche/Studenten)",
+    price: "482,90 €",
+  },
+  {
+    title: "Einmalige Registrierungsgebühr",
+    price: "25 €",
+    note: "Bei Vertragsabschluss",
   },
 ];
 
 export const servicesData = [
   {
-    title: "Life Fitness Circuit Machines",
-    text: "Our Life Fitness circuit machines provide an effective, joint-friendly, and versatile full-body workout—perfect for all fitness levels, whether beginner or advanced.",
+    title: "Life Fitness Kraftgeräte",
+    text: "Unsere Life Fitness Kraftgeräte bieten ein effektives, gelenkschonendes und vielseitiges Ganzkörpertraining – perfekt für alle Fitnesslevel, ob Anfänger oder Fortgeschrittene.",
   },
   {
-    title: "Our Intenza Stair Climber",
-    text: "Take your training to the next level with the Intenza Stair Climber! This modern fitness machine simulates stair climbing, providing a highly effective full-body workout. It’s ideal for increasing endurance, strengthening leg and glute muscles, and burning lots of calories.",
+    title: "Unser Intenza Stair Climber",
+    text: "Bringen Sie Ihr Training mit dem Intenza Stair Climber auf die nächste Stufe! Dieses moderne Fitnessgerät simuliert das Treppensteigen und bietet ein äußerst effektives Ganzkörpertraining. Es ist ideal, um die Ausdauer zu steigern, die Bein- und Gesäßmuskulatur zu stärken und viele Kalorien zu verbrennen.",
   },
   {
-    title: "Matrix Treadmills",
-    text: "Matrix treadmills are perfect for improving endurance, burning calories, or boosting overall fitness. With powerful motors, adjustable speeds, and incline settings, they adapt seamlessly to your individual needs. Specially designed cushioning systems ensure a joint-friendly and enjoyable workout experience.",
+    title: "Matrix Laufbänder",
+    text: "Die Matrix Laufbänder sind ideal, um die Ausdauer zu verbessern, Kalorien zu verbrennen oder die allgemeine Fitness zu steigern. Mit leistungsstarken Motoren, einstellbaren Geschwindigkeiten und Steigungsoptionen passen sie sich perfekt an Ihre individuellen Bedürfnisse an. Speziell entwickelte Dämpfungssysteme sorgen für ein gelenkschonendes und angenehmes Trainingserlebnis.",
   },
   {
-    title: "Matrix Cross-Trainer",
-    text: "Our Matrix cross-trainers provide a smooth, joint-friendly full-body workout. They enhance endurance, strengthen muscles in the legs, arms, and core, and are perfect for all fitness levels. With adjustable resistance levels and fluid motion, your training will be both efficient and comfortable.",
+    title: "Matrix Crosstrainer",
+    text: "Unsere Matrix Crosstrainer bieten ein sanftes, gelenkschonendes Ganzkörpertraining. Sie verbessern die Ausdauer, stärken die Muskulatur in Beinen, Armen und der Körpermitte und sind für jedes Fitnesslevel geeignet. Mit verstellbaren Widerstandsstufen und fließenden Bewegungen wird Ihr Training effizient und komfortabel.",
   },
   {
-    title: "Life Fitness Treadmills",
-    text: "Our treadmills provide joint-friendly running training that enhances endurance, burns calories, and strengthens the cardiovascular system. With customizable speeds and incline settings, they adapt perfectly to your fitness level and training goals. Thanks to innovative cushioning systems, the training is both pleasant and safe.",
+    title: "Life Fitness Laufbänder",
+    text: "Unsere Laufbänder bieten gelenkschonendes Lauftraining, das die Ausdauer verbessert, Kalorien verbrennt und das Herz-Kreislauf-System stärkt. Mit anpassbaren Geschwindigkeiten und Steigungsstufen passen sie sich perfekt Ihrem Fitnesslevel und Ihren Trainingszielen an. Dank innovativer Dämpfungssysteme ist das Training angenehm und sicher.",
   },
   {
-    title: "Life Fitness Cross-Trainers",
-    text: "The cross-trainers offer a low-impact full-body workout that trains endurance and strengthens muscles in the legs, arms, and core. Their smooth motion and adjustable resistance levels make them ideal for burning calories, improving fitness, and protecting your joints at the same time.",
+    title: "Life Fitness Crosstrainer",
+    text: "Die Crosstrainer bieten ein gelenkschonendes Ganzkörpertraining, das die Ausdauer trainiert und die Muskulatur in Beinen, Armen und der Körpermitte stärkt. Ihre sanften Bewegungen und anpassbaren Widerstandsstufen machen sie ideal, um Kalorien zu verbrennen, die Fitness zu verbessern und gleichzeitig die Gelenke zu schonen.",
   },
   {
-    title: "Pro Evolution Vibration Plate by Powrx",
-    text: "The Pro Evolution vibration plate by Powrx offers you an innovative and versatile training experience. Its multidimensional vibrations intensely stimulate your muscles, enhancing the effectiveness of every exercise.",
+    title: "Pro Evolution Vibrationsplatte von Powrx",
+    text: "Die Pro Evolution Vibrationsplatte von Powrx bietet Ihnen ein innovatives und vielseitiges Trainingserlebnis. Ihre multidimensionalen Vibrationen stimulieren die Muskeln intensiv und steigern die Effektivität jedes Trainings.",
   },
   {
-    title: "DRAX Pure Plate V-Squat Machine",
-    text: "Turn your workout into a highlight with the DRAX Pure Plate V-Squat machine—the latest trend in the fitness world! This premium device is perfect for shaping your legs and glutes effectively and taking your strength to the next level.",
+    title: "DRAX Pure Plate V-Squat Maschine",
+    text: "Machen Sie Ihr Training mit der DRAX Pure Plate V-Squat Maschine zum Highlight – der neueste Trend in der Fitnesswelt! Dieses Premium-Gerät ist perfekt, um Ihre Beine und Gesäßmuskulatur effektiv zu formen und Ihre Kraft auf das nächste Level zu bringen.",
   },
 ];
 

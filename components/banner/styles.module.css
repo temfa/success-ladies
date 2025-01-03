@@ -85,3 +85,19 @@
     display: flex;
     gap: 24px;
 }
+
+@media screen and (max-width: 500px) {
+    .container {
+        width: 90%;
+        max-width: 100%;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+    .top h2 {
+        width: 100%;
+        font-size: 50px;
+    }
+}

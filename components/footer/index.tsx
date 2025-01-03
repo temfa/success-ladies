@@ -8,11 +8,11 @@ const Footer = () => {
     <div className={styles.container}>
       <div className={styles.left}>
         <CopyrightSvg />
-        <p>2024 Success Ladies</p>
+        <p>2024 Erfolg Damen</p>
       </div>
       <div className={styles.right}>
-        <Link href="/terms">Term of use</Link>
-        <Link href="/privacy">Privacy Policy</Link>
+        <Link href="/terms">Nutzungsbedingungen</Link>
+        <Link href="/privacy">Datenschutzrichtlinie</Link>
       </div>
     </div>
   );

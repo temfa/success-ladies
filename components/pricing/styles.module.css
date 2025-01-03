@@ -76,3 +76,11 @@
     color: #777;
     font-style: italic;
 }
+
+
+@media screen and (max-width: 500px) {
+    .pricing {
+        width: 90%;
+        max-width: 100%;
+    }
+}
