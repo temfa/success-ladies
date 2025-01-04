@@ -20,7 +20,6 @@ export default function Home() {
       <Why />
       <Enhance />
       <Pricing />
-      <Gallery />
       <Call />
       <Footer />
     </>
