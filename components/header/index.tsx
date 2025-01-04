@@ -27,7 +27,11 @@ const Header = () => {
             );
           })}
         </div>
-        <button>Jetzt Beitreten</button>
+        <button>
+          <Link href="tel:+0176-81102839" target="_blank">
+            Jetzt Beitreten
+          </Link>
+        </button>
       </div>
     </div>
   );
