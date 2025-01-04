@@ -5,7 +5,14 @@ import { plansData } from "@/utils/data";
 const Pricing = () => {
   return (
     <div className={styles.pricing} id="pricing">
-      <div className={styles.header} data-aos="fade" data-aos-offset="500" data-aos-duration="1000" data-aos-easing="ease-in" data-aos-mirror="true" data-aos-once="false">
+      <div
+        className={styles.header}
+        data-aos="fade"
+        data-aos-anchor-placement="top-center"
+        data-aos-duration="600"
+        data-aos-easing="ease-in"
+        data-aos-mirror="true"
+        data-aos-once="true">
         <p>Preise</p>
         <h2>Werde heute Mitglied</h2>
       </div>

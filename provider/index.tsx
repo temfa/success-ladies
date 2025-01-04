@@ -8,7 +8,6 @@ export function Providers({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     AOS.init({
       easing: "ease-out-cubic",
-      once: true,
       offset: 50,
     });
   }, []);

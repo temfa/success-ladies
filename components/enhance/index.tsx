@@ -4,7 +4,7 @@ import styles from "./styles.module.css";
 const Enhance = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.wrapper} data-aos="fade-up" data-aos-offset="500" data-aos-duration="1000" data-aos-easing="ease-in" data-aos-mirror="true" data-aos-once="false">
+      <div className={styles.wrapper} data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in" data-aos-mirror="true" data-aos-once="true">
         <p>Verbessern Sie das Nutzererlebnis mit Tipps für eine gesunde Ernährung, unterstützenden Ressourcen und sozialen Elementen.</p>
         <button>Treten Sie bei</button>
       </div>

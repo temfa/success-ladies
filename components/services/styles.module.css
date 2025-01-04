@@ -92,5 +92,6 @@
     .body .singleService {
         width: 95% !important;
         margin: 0px auto;
+        height: fit-content;
     }
 }
