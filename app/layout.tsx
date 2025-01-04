@@ -4,6 +4,7 @@ import "./globals.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "react-image-lightbox/style.css";
+import { Providers } from "@/provider";
 
 const rubik = Rubik({
   variable: "--font-rubik",
@@ -22,7 +23,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${rubik.variable}`}>{children}</body>
+      <body className={`${rubik.variable}`}>
+        <Providers>{children}</Providers>
+      </body>
     </html>
   );
 }

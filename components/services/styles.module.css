@@ -81,6 +81,13 @@
     letter-spacing: 0.2px;
 }
 
+@media screen and (max-width: 800px) {
+    .body .singleService {
+        width: 90% !important;
+        margin: 0px auto;
+    }
+}
+
 @media screen and (max-width: 500px) {
     .body .singleService {
         width: 95% !important;

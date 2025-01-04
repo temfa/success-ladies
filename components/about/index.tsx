@@ -5,8 +5,19 @@ import Image from "next/image";
 const About = () => {
   return (
     <div className={styles.container}>
-      <Image src="/images/IMG-20250102-WA0011.jpg" width={532} height={732} alt="About" />
-      <div className={styles.about}>
+      <Image
+        src="/images/IMG-20250102-WA0011.jpg"
+        width={532}
+        height={732}
+        alt="About"
+        data-aos="fade-right"
+        data-aos-offset="500"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in"
+        data-aos-mirror="true"
+        data-aos-once="false"
+      />
+      <div className={styles.about} data-aos="fade-left" data-aos-offset="500" data-aos-duration="1000" data-aos-easing="ease-in" data-aos-mirror="true" data-aos-once="false">
         <h2>Über uns</h2>
         <p>
           Hallo! Ich bin Dilek Popal 😊, Mutter von vier wunderbaren Kindern und die Gründerin eines ganz besonderen Fitnessstudios🏋️‍♀️, das mit viel Herz❤️ – für dich, für uns
