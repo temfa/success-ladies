@@ -1,3 +1,4 @@
+import About from "@/components/about";
 import Banner from "@/components/banner";
 import Call from "@/components/call";
 import Counter from "@/components/counter";
@@ -13,7 +14,9 @@ export default function Home() {
     <>
       <Banner />
       <Counter />
+      <About />
       <Services />
+      <Gallery />
       <Why />
       <Enhance />
       <Pricing />

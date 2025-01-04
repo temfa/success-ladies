@@ -18,19 +18,19 @@ const Banner = () => {
           <div className={styles.wrapper}>
             <div className={styles.top}>
               <h2>Willkommen in meinem Fitnessstudio!</h2>
-              <p>
+              {/* <p>
                 Hallo! Ich bin Dilek Popal 😊, Mutter von vier wunderbaren Kindern und die Gründerin eines ganz besonderen Fitnessstudios🏋️‍♀️, das mit viel Herz❤️ – für dich, für uns
                 Frauen – geschaffen wurde.
-              </p>
+              </p> */}
             </div>
-            <div className={styles.bottom}>
+            {/* <div className={styles.bottom}>
               <button>Jetzt starten</button>
               <div className={styles.social}>
                 <TwitterSvg />
                 <FacebookSvg />
                 <InstagramSvg />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
