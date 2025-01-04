@@ -34,6 +34,7 @@
         display: grid;
         grid-template-columns: 2fr 2fr;
         row-gap: 24px;
+        overflow: hidden;
     }
 
     /* .single h2 {

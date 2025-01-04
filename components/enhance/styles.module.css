@@ -36,6 +36,7 @@
 @media screen and (max-width: 500px) {
     .container {
         padding: 40px 10px;
+        overflow: hidden;
     }
 
     .wrapper {

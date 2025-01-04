@@ -83,5 +83,6 @@
     .pricing {
         width: 90%;
         max-width: 100%;
+        overflow: hidden;
     }
 }

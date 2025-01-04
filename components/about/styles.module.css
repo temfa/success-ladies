@@ -49,6 +49,7 @@
         max-width: 100%;
         gap: 20px;
         padding: 20px 0px;
+        overflow: hidden;
     }
 
     .about {
