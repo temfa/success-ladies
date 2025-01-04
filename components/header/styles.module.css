@@ -62,7 +62,7 @@
 
     .wrapper {
         width: 100%;
-        padding: 24px;
+        padding: 0px 24px;
         max-width: 100%;
         flex-direction: column;
         gap: 24px;
@@ -73,6 +73,7 @@
         height: 100vh;
         overflow-y: hidden;
         background-color: #000;
+        padding-bottom: 20px;
     }
 
     .logo {
