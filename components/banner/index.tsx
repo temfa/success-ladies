@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./styles.module.css";
 import Header from "../header";
-import TwitterSvg from "@/svgs/twitter";
-import FacebookSvg from "@/svgs/facebook";
-import InstagramSvg from "@/svgs/instagram";
+// import TwitterSvg from "@/svgs/twitter";
+// import FacebookSvg from "@/svgs/facebook";
+// import InstagramSvg from "@/svgs/instagram";
 
 const Banner = () => {
   return (
