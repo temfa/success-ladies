@@ -50,7 +50,7 @@ const Services = () => {
   return (
     <div className={styles.container} id="services">
       <div className={styles.header}>
-        <h2>Our Services</h2>
+        <h2>Unsere Dienstleistungen</h2>
         <div className={styles.arrow}>
           <div className={styles.left} onClick={previous}>
             <ArrowLeft />

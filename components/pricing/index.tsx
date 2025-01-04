@@ -6,8 +6,8 @@ const Pricing = () => {
   return (
     <div className={styles.pricing} id="pricing">
       <div className={styles.header}>
-        <p>Pricing Plan</p>
-        <h2>Join Today</h2>
+        <p>Preise</p>
+        <h2>Werde heute Mitglied</h2>
       </div>
       <div className={styles.cards}>
         {plansData.map((item, index) => (

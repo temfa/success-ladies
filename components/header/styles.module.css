@@ -83,6 +83,8 @@
         display: flex !important;
     }
 
-    /* 
-    .wrapper .nav {} */
+
+    .wrapper .nav {
+        flex-direction: column;
+    }
 }
