@@ -17,7 +17,7 @@ const About = () => {
         data-aos-mirror="true"
         data-aos-once="false"
       />
-      <div className={styles.about} data-aos="fade-left" data-aos-offset="500" data-aos-duration="1000" data-aos-easing="ease-in" data-aos-mirror="true" data-aos-once="false">
+      <div className={styles.about} data-aos="fade" data-aos-offset="500" data-aos-duration="1000" data-aos-easing="ease-in" data-aos-mirror="true" data-aos-once="false">
         <h2>Über uns</h2>
         <p>
           Hallo! Ich bin Dilek Popal 😊, Mutter von vier wunderbaren Kindern und die Gründerin eines ganz besonderen Fitnessstudios🏋️‍♀️, das mit viel Herz❤️ – für dich, für uns

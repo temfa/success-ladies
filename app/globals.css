@@ -41,3 +41,8 @@ html {
 input[type="number"]::-webkit-inner-spin-button {
   appearance: none;
 }
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
